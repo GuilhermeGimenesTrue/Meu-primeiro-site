@@ -8,6 +8,10 @@ header{
 
 /*Classe Atribuida pra div que vai receber o logotipo*/
 
+logo{
+    background-color: gold;
+}
+
 img{
     width: 20%;
 }
