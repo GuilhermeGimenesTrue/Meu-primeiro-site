@@ -10,7 +10,8 @@ header{
 /*Classe Atribuida pra div que vai receber o logotipo*/
 .logo{
     background-color: gold;
-    
+    width: 10%;
+    height: 10%;
 }
 
 nav{
