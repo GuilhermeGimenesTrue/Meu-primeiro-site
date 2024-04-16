@@ -1,27 +1,27 @@
 body{
-background-color: #90EE90;
+
 }
 
 header{
-    background-color: #fff;
+   
     padding: 3%;
 }
 
 /*Classe Atribuida pra div que vai receber o logotipo*/
 .logo{
-    background-color: gold;
+   
     width: 10%;
-    height: 10%;
+    height: 5px;
 }
 
 nav{
-    background-color: #90EE90;  
+    
 }
 
 
 
 main{
-    background-color: aqua;
+   
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -29,11 +29,11 @@ main{
 }
 
 section{
-    background-color: rgb(110, 165, 172);
+    
 }
 
 footer{
-    background-color: burlywood;
+   
     padding: 3%;
 }
 
