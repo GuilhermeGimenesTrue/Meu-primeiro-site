@@ -8,10 +8,10 @@ header{
 }
 
 /*Classe Atribuida pra div que vai receber o logotipo*/
-.logo{
+.logo img{
    
-    width: 10%;
-    height: 5px;
+    width: 100px;
+    
 }
 
 nav{
