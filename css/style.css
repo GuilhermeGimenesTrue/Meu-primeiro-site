@@ -1,4 +1,6 @@
 body {
+    background-image: url(../img/borderlands_2_background.jfif);
+    
 
 }
 
@@ -26,7 +28,7 @@ main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: ;
+    background-color: #808080;
 
 }
 
@@ -36,18 +38,23 @@ h1{
         font-weight: 400;
         font-style: normal;
         text-align: center;
-      
+        color: rgb(255, 255, 255);
       
     font-size: 500%;
 }
 
 section {
 text-align: center;
+color: rgb(255, 255, 255)
 }
 
 footer{
+   background-color: black;
    
     padding: 3%;
 }
 
 
+p {
+    color: rgb(255, 255, 255);
+}
