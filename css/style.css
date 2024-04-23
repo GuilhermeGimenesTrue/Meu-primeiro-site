@@ -4,7 +4,7 @@ body {
 
 header{
    
-    background-color: #ff6e01;
+    background-color: #f9e814;
     padding: 3%;
 }
 
@@ -16,7 +16,7 @@ header{
 }
 
 nav {
-    background-color: #f9e814;
+    background-color: #ff6e01;
 }
 
 
@@ -26,6 +26,7 @@ main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    background-color: ;
 
 }
 
