@@ -6,20 +6,20 @@ body {
 }
 
 header{
-   
-    background-color: #f9e814;
+    background-color: black;
     padding: 3%;
 }
 
 /*Classe Atribuida pra div que vai receber o logotipo*/
 .logo img{
-   
+    background-color: black;
+    padding: 3%;
     width: 100px;
     
 }
 
 nav {
-    background-color: #ff6e01;
+    background-color: #0000;
 }
 
 
@@ -29,8 +29,14 @@ main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #808080;
+    background-color: black;
+}
 
+.maintext {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
 }
 
 h1{
@@ -58,4 +64,11 @@ footer{
 
 p {
     color: rgb(255, 255, 255);
+}
+
+.navbar {
+    font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    color:rgb(255, 255, 255)
 }
