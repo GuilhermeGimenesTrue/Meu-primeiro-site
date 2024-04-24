@@ -30,6 +30,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     background-color: black;
+    padding: 3%;
 }
 
 .maintext {
@@ -37,6 +38,8 @@ main{
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+        text-align: left;
+        color: rgb(255, 255, 255);
 }
 
 h1{
@@ -51,8 +54,7 @@ h1{
 }
 
 section {
-text-align: center;
-color: rgb(255, 255, 255)
+
 }
 
 footer{
@@ -70,5 +72,10 @@ p {
     font-family: "Anton", sans-serif;
         font-weight: 400;
         font-style: normal;
+        display: flex;
     color:rgb(255, 255, 255)
+}
+
+.navbar_link{
+    padding: 1%;
 }
