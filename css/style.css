@@ -1,7 +1,7 @@
 body {
-    background-image: url(../img/a.jfif);
+    /*background-image: url(../img/a.jfif);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 90%;*/
 
 }
 
@@ -39,9 +39,17 @@ main{
         font-weight: 500;
         font-style: normal;
         text-align: left;
+        line-height: 1.5;
         color: rgb(255, 255, 255);
 }
 
+.title {
+    line-height: 3;
+    background-image: url(../img/borderlands_title.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
 h1{
     
         font-family: "Anton", sans-serif;
