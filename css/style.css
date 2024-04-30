@@ -43,11 +43,13 @@ main{
         color: rgb(255, 255, 255);
 }
 
+
+
 .title {
     line-height: 3;
-    background-image: url(../img/borderlands_title.jpg);
+    /*background-image: url(../img/borderlands_title.jpg);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 80%;*/
     background-position: center;
 }
 h1{
