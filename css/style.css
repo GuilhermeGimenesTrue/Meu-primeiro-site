@@ -1,7 +1,7 @@
 body {
-    /*background-image: url(../img/a.jfif);
+    background-image: url(../img/fundo.webp);
     background-repeat: no-repeat;
-    background-size: 90%;*/
+    background-size: 100%;
 
 }
 
@@ -51,16 +51,18 @@ main{
     background-repeat: no-repeat;
     background-size: 80%;*/
     background-position: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  
+font-size: 500%;
 }
+
 h1{
     
-        font-family: "Anton", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-        color: rgb(255, 255, 255);
-      
-    font-size: 500%;
+    
 }
 
 section {
@@ -69,13 +71,8 @@ section {
 
 footer{
    background-color: black;
-   
+   color: rgb(255, 255, 255);
     padding: 3%;
-}
-
-
-p {
-    color: rgb(255, 255, 255);
 }
 
 .navbar {
