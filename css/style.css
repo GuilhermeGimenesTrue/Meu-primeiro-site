@@ -59,7 +59,8 @@ p{
 }
 
 ul,li{
-	font-size: 1.2em
+	font-size: 1.2em;
+	list-style-type: none;
 }
 
 .cabecalho{
@@ -68,6 +69,30 @@ ul,li{
 
 .rodape{
 	padding: 3%;
+}
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+	font-size: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	font-family: "Josefin Sans", sans-serif;   
+	font-optical-sizing: auto;  
+	font-weight: 500;  
+	font-style: normal;
+	color: white;
+}
+
+th,td{
+	border: 5px orange;
+	padding: 1.5%;
+
+}
+
+tr:nth-child(even) {
+	background-color: orange;
 }
 
 .maintext {  
@@ -81,8 +106,7 @@ ul,li{
 }
 
 .titulos{ 
-	font-size: 2em
-	line-height: 3;
+	font-size: 2em;
 	text-align: center;
 	font-weight: bold;
 	
@@ -92,12 +116,7 @@ ul,li{
 	font-family: "Anton", sans-serif;
 	font-weight: 400;   
 	font-style: normal;    
-	display: flex;
-	color:rgb(255, 255, 255)
-}
-
-.navbar_link{ 
-	padding: 1%;
+	color:rgb(255, 255, 255);
 }
 
 .linha{
@@ -120,4 +139,20 @@ ul,li{
 	width: 90%;
 	margin-left: 1%;
 	margin-right: 1%;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:hover{
+	color:orange
+}
+
+a:active{
+	color:yellow
 }
