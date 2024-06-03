@@ -112,7 +112,7 @@ tr:nth-child(even) {
 	font-size: 2em;
 	text-align: center;
 	font-weight: bold;
-	width: 50%
+	width: 500px;
 	
 }
 
@@ -164,11 +164,11 @@ a:active{
 .right{
 	float: right;
 	padding: 1%;
-	width: 50%
+	
 }
 
 .left{
 	float: left;
 	padding: 1%;
-	width: 50%
+	
 }
