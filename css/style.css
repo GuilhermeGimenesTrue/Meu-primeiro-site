@@ -176,8 +176,10 @@ a:active{
 
 table{
 	border-collapse: collapse;
-
+	
 }
+
+
 
 td{
 	padding: 3%;
@@ -191,6 +193,31 @@ td{
 	}
 
 	h1{
-		font-size: calc(100% - 20px);
+		font-size: calc(50% - 20px);
+	}
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card{
+	width: calc(33.33% - 20px);
+	margin-bottom: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 750px){
+	.card {
+		width: calc(50% - 20px);
+	}
+}
+
+@media screen and (max-width: 450px){
+	.card {
+		width: calc(100% - 20px);
 	}
 }
