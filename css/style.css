@@ -147,19 +147,23 @@ tr:nth-child(even) {
 }
 
 a:link{
-	color: white;
+	color: black;
+	text-decoration: none;
 }
 
 a:visited{
-	color: yellow;
+	color: white;
+	text-decoration: none;
 }
 
 a:hover{
-	color:orange
+	color:yellow;
+	text-decoration: none;
 }
 
 a:active{
-	color:yellow
+	color:yellow;
+	text-decoration: none;
 }
 
 .right{
