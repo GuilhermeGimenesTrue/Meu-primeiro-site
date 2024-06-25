@@ -6,7 +6,8 @@ body {
 
 header{
     background-color: orange;
-    padding: 3%;
+	padding: 3%;
+	
 
 }
 
@@ -39,6 +40,12 @@ footer{
 	padding: 3%;
 }
 
+.menu{
+	background-color: black;
+	padding: 3%;
+}
+
+
 h1{
 	font-size: 2em;
 	background-position: center;
@@ -54,6 +61,9 @@ h1{
 h2{
 	font-size: 1.5em;
 	font-style: oblique;
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 p{
@@ -151,7 +161,7 @@ tr:nth-child(even) {
 }
 
 a:link{
-	color: black;
+	color:  orange;
 	text-decoration: none;
 }
 
@@ -187,12 +197,9 @@ table{
 	
 }
 
-
-
 td{
 	padding: 3%;
 	text-align: center;
-	
 }
 
 .container {
@@ -209,7 +216,7 @@ td{
 .topright {
 	position: absolute;
 	top: 8px;
-	right: 160px;
+	right: 85px;
 	font-size: 18px;
 }
 
@@ -231,7 +238,7 @@ td{
 .bottomright {
 	position: absolute;
 	bottom: 8px;
-	right: 16px;
+	right: 85px;
 	font-size: 18px;
 }
 
@@ -240,6 +247,8 @@ td{
 	height: auto;
 	opacity: 0.3;
 }
+
+
 
 @media screen and (max-width: 690px) {
 	.right{
@@ -275,3 +284,79 @@ td{
 		width: calc(100% - 20px);
 	}
 }
+
+@media screen and (max-width: 945px){
+	
+	.container img{
+		width: calc(95% - 20px);
+	}
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(100% - 1px);
+	}
+}
+
+@media screen and (max-width: 795px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(90% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 710px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(80% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 650px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(70% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 580px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(60% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 510px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(50% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 445px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(40% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 360px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(30% - 1px);
+	}
+
+}
+
+@media screen and (max-width: 290px){
+
+	.topleft, .topright, .center, .bottomleft, .bottomright{
+		font-size: calc(20% - 1px);
+	}
+
+}
+
