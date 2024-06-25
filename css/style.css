@@ -85,6 +85,10 @@ ul,li{
 	padding: 3%;
 }
 
+.tabela{
+	overflow-x: auto;
+}
+
 table{
 	border-collapse: collapse;
 	width: 100%;
