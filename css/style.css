@@ -1,8 +1,14 @@
+
 body {
 	background-image: url(../img/background_2.jpg);  
 	background-repeat: round;  
 	background-size: 100%;
 }
+
+html{
+	scroll-behavior: smooth;
+}
+
 
 header{
     background-color: orange;
@@ -133,8 +139,6 @@ tr:nth-child(even) {
 
 .navbar{
 	display: inline;
-	position: -webkit- sticky;
-	position: sticky;
 	top: 0;
 	font-family: "Anton", sans-serif;
 	font-weight: 400;   
@@ -281,6 +285,8 @@ td{
 	width: 1200px;
 }
 
+
+
 @media screen and (max-width: 750px){
 	.card {
 		width: calc(50% - 20px);
@@ -370,4 +376,6 @@ td{
 	}
 
 }
+
+
 
