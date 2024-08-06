@@ -256,6 +256,9 @@ td{
 	opacity: 0.3;
 }
 
+fieldset{
+	margin-bottom: 10px;
+}
 
 
 @media screen and (max-width: 690px) {
